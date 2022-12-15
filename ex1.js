@@ -12,3 +12,9 @@ function filterList(item) {
     return arr2;
 }
 console.log(filterList(arr));
+
+function hyi(arr) {
+    return arr.filter(element  => Number.isInteger(element));
+}
+
+console.log(hyi(arr));
